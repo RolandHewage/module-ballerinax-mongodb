@@ -43,7 +43,7 @@ jobs:
               uses: ballerina-platform/ballerina-action/@nightly
               with:
                 args:
-                  test --groups mongodb mongodb --code-coverage 
+                  test --groups mongodb --code-coverage mongodb 
               env:
                 JAVA_HOME: /usr/lib/jvm/default-jvm
                 # Following credentials are only used during testing in docker container
